@@ -2,7 +2,7 @@
 println "Hello from Groovy script"
 
 // вызываем файл с определением замыкания - импортируем
-evaluate(new File("src/main/groovy/GroovyDefinition.groovy"))
+evaluate(new File("groovy-scripts/GroovyDefinition.groovy"))
 
 println new JavaClass().getName()
 

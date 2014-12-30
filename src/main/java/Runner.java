@@ -10,7 +10,7 @@ import groovy.lang.GroovyShell;
 public class Runner {
 	public static void main(String... args) throws CompilationFailedException, IOException{
 	    GroovyShell shell = new GroovyShell();
-	    Object result = shell.evaluate(new File("src/main/groovy/GroovyScript.groovy"));
+	    Object result = shell.evaluate(new File("groovy-scripts/GroovyScript.groovy"));
 	    System.out.println("result=" + result);
 	}
 }
